@@ -1,29 +1,33 @@
+
 input {
-  border-radius: 20px;
-  width: 550px;
-  height: 50px;
-  border-color: transparent;
-  position: relative;
-  text-align: center;
-
-  font-size: 50px;
-
-
+    display: block;
+    border: none;
+    width: 12ch;
+    background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/ 10ch 2px no-repeat;
+    font: 5ch droid sans mono, consolas, monospace;
+    letter-spacing: 0.5ch;
+    color: white;
+    position: fixed;
+    top: 70%;
+    left: 53%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
 input:focus {
-  border-radius: 20px;
-  width: 550px;
-  height: 50px;
-  border-color: transparent;
-  position: relative;
-  text-align: center;
-
-  font-size: 50px;
-  margin: center;
-
-
+    outline: none;
+    color: white;
 }
 
 body {
-  background-color: black;
+    background-color: black;
+}
+#textbox {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
 }

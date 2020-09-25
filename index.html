@@ -7,12 +7,11 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <center><input><input oninput="let p=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(p, p);" /></center>
     <script src="script.js"></script>
 </div>
 
 <!-- particles.js container -->
-<div id="particles-js"></div>
+<div id="particles-js"><center><div id="textbox"><input oninput="let p=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(p, p);" / maxlength="7" autofocus></div></center></div>
 
 <!-- scripts -->
 <script src="../particles.js"></script>
